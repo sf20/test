@@ -37,6 +37,8 @@ public class CharacterFilter implements Filter {
 		// place your code here
 
 		// pass the request along the filter chain
+		response.setContentType("text/html;charset=utf-8");
+		
 		chain.doFilter(request, response);
 	}
 
