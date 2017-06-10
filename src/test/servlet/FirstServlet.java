@@ -27,7 +27,7 @@ public class FirstServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().write("中文测试");
+		response.getWriter().write("中文测试11");
 	}
 
 	/**
